@@ -30,7 +30,7 @@ const AboutText: React.FC<AboutTextProps> = ({
   const toolsRef = useRef<HTMLSpanElement>(null);
 
   const fullText =
-    "a software engineer who builds solutions\nfor high-growth companies with tools.";
+    "a software engineer who builds solutions\nfor high-growth companies with code.";
   const chars = "!@#$%^&*()_+-=[]{}|;':\",./<>?~`";
 
   const getWordHighlight = (key: string) => {
